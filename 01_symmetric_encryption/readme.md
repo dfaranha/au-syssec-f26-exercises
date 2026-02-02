@@ -104,9 +104,8 @@ Implement encryption and decryption with CBC and CTR modes analogously to ECB.
 
 Note that both modes require an additional value:
 - CBC takes an Initialization Vector (IV) (use the `iv` parameter to pass a bytes-object of 16 B)
-- CTR takes a nonce (use the `nonce` paraemeter to pass a bytes-object of 8 B)
-Since these are required for decryption, we store them in comments in the PPM
-header.
+- CTR takes a nonce (use the `nonce` parameter to pass a bytes-object of 8 B)
+Since these are required for decryption, we store them in comments in the PPM header.
 
 What is different compared to ECB?
 - Take a look at encrypted images containing different patterns.
